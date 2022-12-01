@@ -269,7 +269,7 @@ article {
     position: relative;
     display: block;
     background-color: var(--content-background);
-    width: 250px;
+    width: 300px;
     margin-bottom: 50px;
     text-align: center;
     overflow: hidden;
