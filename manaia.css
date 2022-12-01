@@ -263,58 +263,7 @@ section {
 .filter-wrap ul li a:hover {color: var(--filter-title);}
 .filter-wrap ul li a.selected {font-weight: bold; color: var(--accent);}
 
-/*----- MEDIA -----*/
 
-article {
-    position: relative;
-    display: block;
-    background-color: var(--content-background);
-    width: 300px;
-    margin-bottom: 50px;
-    text-align: center;
-    overflow: hidden;
-    box-shadow: 2px 2px 15px var(--drop-shadow), -2px -2px 15px var(--drop-shadow);
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
-article:hover {
-    margin-top: -5px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
-article.item-active {margin-top: -5px;}
-
-article img {
-    width: 100%;
-    height: var(--media-image-height);
-    object-fit: cover;
-    text-align: center;
-}
-
-.item-desc {
-    padding: 1em; 
-    box-sizing: border-box; 
-    text-align: left;
-    position: relative;
-}
-
-article .subtitle {font-size: 1.1em;}
-
-.rating svg {
-    color: var(--rating-star);
-    fill: var(--rating-star);
-    width: 1em;
-    height: 1em;
-    margin-right: 0.25em;
-}
 
 /*----- SLIDE IN BUTTON -----*/
 
